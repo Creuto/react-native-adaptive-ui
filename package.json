@@ -1,0 +1,83 @@
+{
+  "name": "@creuto/react-native-adaptive-ui",
+  "version": "0.1.1",
+  "description": "Accessibility-first adaptive UI layout toolkit for React Native by Creuto — A leading product engineering company creating adaptive software solutions.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint 'src/**/*.{ts,tsx}' '__tests__/**/*.{ts,tsx}'",
+    "format": "prettier --write 'src/**/*.{ts,tsx}' '__tests__/**/*.{ts,tsx}'",
+    "format:check": "prettier --check 'src/**/*.{ts,tsx}' '__tests__/**/*.{ts,tsx}'",
+    "test": "jest",
+    "prepack": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-native": ">=0.68.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-flow": "^7.25.9",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/preset-typescript": "^7.26.0",
+    "@testing-library/react-native": "^12.4.0",
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.2.79",
+    "@types/react-native": "^0.72.8",
+    "@typescript-eslint/eslint-plugin": "^7.7.0",
+    "@typescript-eslint/parser": "^7.7.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "react": "18.2.0",
+    "react-native": "0.72.10",
+    "react-test-renderer": "18.2.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "creuto",
+    "creuto-ai",
+    "react-native",
+    "react-native-adaptive-ui",
+    "accessibility",
+    "font scaling",
+    "adaptive UI",
+    "responsive UI",
+    "dynamic type",
+    "large text",
+    "mobile accessibility",
+    "mobile app development",
+    "custom software development",
+    "product engineering",
+    "a11y",
+    "react native toolkit"
+  ],
+  "author": {
+    "name": "Creuto",
+    "url": "https://creuto.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://creuto.com"
+  },
+  "homepage": "https://creuto.com"
+}
