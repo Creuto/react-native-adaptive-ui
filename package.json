@@ -1,6 +1,6 @@
 {
   "name": "@creuto/react-native-adaptive-ui",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Accessibility-first adaptive UI layout toolkit for React Native by Creuto — A leading product engineering company creating adaptive software solutions.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -76,8 +76,12 @@
     "url": "https://creuto.com"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Creuto/react-native-adaptive-ui.git"
+  },
   "bugs": {
-    "url": "https://creuto.com"
+    "url": "https://github.com/Creuto/react-native-adaptive-ui/issues"
   },
   "homepage": "https://creuto.com"
 }
